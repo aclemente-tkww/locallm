@@ -1,0 +1,17 @@
+accelerate
+autoawq; platform_system != 'Darwin'
+bitsandbytes
+datasets
+einops
+jupyter
+jupyterlab
+optimum[onnxruntime-gpu]; platform_system != 'Darwin'
+safetensors
+scipy
+sentencepiece
+tiktoken
+torch
+tqdm
+transformers
+transformers_stream_generator
+vllm; platform_system != 'Darwin'
